@@ -1,5 +1,7 @@
 println("pwd:")
 println("pwd".execute().text.trim())
+println("git --help:")
+println("git --help".execute().text.trim())
 println("git:")
 println("git describe".execute().text.trim())
 
