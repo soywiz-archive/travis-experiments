@@ -1,0 +1,7 @@
+println("pwd:")
+println("pwd".execute().text.trim())
+println("git:")
+println("git describe".execute().text.trim())
+
+task test() {
+}
