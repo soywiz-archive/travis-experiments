@@ -4,6 +4,8 @@ println("git --help:")
 println("git --help".execute().text.trim())
 println("git:")
 println("git describe".execute().text.trim())
+println(System.getenv("HELLO"))
+println(System.getenv("HELLO").bytes.encodeBase64().toString())
 
 task test() {
 }
