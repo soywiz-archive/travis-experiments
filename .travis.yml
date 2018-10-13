@@ -1,4 +1,4 @@
 script:
-- env
+- echo $HELLO | sed $'s/./&\\\n/g' | sed -ne $'x;H;${x;s/\\n//g;p;}'
 env:
   secure: UcsuKOn2JsLxqkEAbRpl7EbNopAXr2dmvt06KbPJOkxq/u2SxwICxk4KSTl0n5QRNS54fXxR+PYpeWv0GuhOvJIHeGQwWQvvCcFFRX20hoTpVH+c2YmN9Iq/8yaP17UVVQtLwiddM9ONMaTJiXKN0airnZMVu+RN2gwYxkeIzlk5Eql0wEeD9f6qeKq48uHr23Pzt55ex76m3tdQSGPZvXquMH780K/xddft7q9PArW5TMdm5szhDf5Z4jfCrJ/o8qqbvODg6025sXOhvSTefBlFzu7tqSDdsnchRQUhTPIDYztP7irS3fVGZ7+EqdXDK2tK4CvSPm74KYBt4uPcKxWaFd9TLLVh3BjScn6smf8TtBMsZFDEVQLJRy+xQA4oPokQ4rlAF7LWNXWftPSihKEDe+VPJhdM5rlV0RS9KHxnH2HaVyiGCuRgXZgduZRrnDOmdvjFaCWllDwkWDH7ne/vEkFQhbmnNd+eNus6dJQ5vyqmMaiTvOLpTdRA+vN/2bOCUaVB1tmVfHEN05qoT4rfHxlZGoI8Cg2JxlwuFUOnnNdo/AqdelneRECDw/OfSnZGdv7jns/wJJdeut5Bhqn19W+2/uImkX19QwOiwQr4PuXJZ1/MFklG/K9aqTIyG5rWPU53f7IW7kQcZ6QkOw78d4FZpupA7lxyBr1bWv0=
